@@ -1,6 +1,6 @@
 # add2datacamp (development version)
 
-* Added a function `create_github_repo` to create a GitHub repository by one function.
+* Added a function `download_datacamp_slides` to easily download DataCamp slides.
 
 # add2datacamp 0.0.0.9000
 
