@@ -1,3 +1,7 @@
+* Added a vignette for the function `download_datacamp_slides`.
+* Added citations for the packages.
+* Added doi.
+
 # add2datacamp 0.1.0
 
 * Added a function `download_datacamp_slides` to easily download DataCamp slides.
