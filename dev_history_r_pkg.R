@@ -53,6 +53,7 @@ usethis::use_github_release()
 # add disclaimer ----------------------------------------------------------
 
 file.edit("DESCRIPTION")
+clipr::write_clip('`r add2pkg::add_disclaimer("Roland Stevenson;Jiaxiang Li")`')
 file.edit("README.Rmd")
 rmarkdown::render("README.Rmd")
 rstudioapi::viewer("README.html")
@@ -60,15 +61,11 @@ file.remove("README.html")
 usethis::use_code_of_conduct()
 
 
-# add examples ------------------------------------------------------------
-
-file.edit("R/download_datacamp_slides.R")
-
-
 # publish -----------------------------------------------------------------
 
 # push
 # make public
+
 use_github_release()
 # publish release
 # https://zenodo.org/account/settings/github/
