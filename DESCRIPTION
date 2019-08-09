@@ -1,6 +1,6 @@
 Package: add2datacamp
 Title: Helpful functions to learn courses from DataCamp.
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person(given = "Jiaxiang",
            family = "Li",

@@ -1,3 +1,5 @@
+# add2datacamp 0.1.1
+
 * Added a vignette for the function `download_datacamp_slides`.
 * Added citations for the packages.
 * Added doi.
