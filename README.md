@@ -27,6 +27,28 @@ library(add2datacamp)
 download_datacamp_slides(input = "https://s3.amazonaws.com/assets.datacamp.com/production/course_15268/slides/chapter{1:4}.pdf",dir = "refs")
 ```
 
+## Citations
+
+Jiaxiang Li. (2019, August 9). JiaxiangBU/add2datacamp: add2datacamp
+0.1.0 (Version v0.1.0). Zenodo. <http://doi.org/10.5281/zenodo.3364644>
+
+``` bibtex
+@misc{jiaxiang_li_2019_3364644,
+  author       = {Jiaxiang Li},
+  title        = {JiaxiangBU/add2datacamp: add2datacamp 0.1.0},
+  month        = aug,
+  year         = 2019,
+  doi          = {10.5281/zenodo.3364644},
+  url          = {https://doi.org/10.5281/zenodo.3364644}
+}
+```
+
+If you use add2datacamp, I would be very grateful if you can add a
+citation in your published work. By citing add2datacamp, beyond
+acknowledging the work, you contribute to make it more visible and
+guarantee its growing and sustainability. For citation, please use the
+BibTex or the citation content.
+
 -----
 
 <h4 align="center">

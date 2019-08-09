@@ -35,6 +35,23 @@ library(add2datacamp)
 download_datacamp_slides(input = "https://s3.amazonaws.com/assets.datacamp.com/production/course_15268/slides/chapter{1:4}.pdf",dir = "refs")
 ```
 
+## Citations
+
+```{r include=FALSE}
+citations <- add2pkg::add_zenodo_citation("README.Rmd")
+```
+
+```{r echo=FALSE, results='asis'}
+cat(citations$Cite)
+```
+
+```{r echo=FALSE, results='asis'}
+cat(paste0("```BibTex\n",citations$BibTex,"\n```"))
+```
+
+```{r echo=FALSE, results='asis'}
+cat(citations$Comments)
+```
 
 ***
 
