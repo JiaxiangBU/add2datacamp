@@ -45,13 +45,14 @@ install()
 # release -----------------------------------------------------------------
 
 use_news_md()
+file.edit("NEWS.md")
 use_version()
+usethis::use_github_release()
 
 
 # add disclaimer ----------------------------------------------------------
 
 file.edit("DESCRIPTION")
-clipr::write_clip('`r add2pkg::add_disclaimer("Jiaxiang Li")`')
 file.edit("README.Rmd")
 rmarkdown::render("README.Rmd")
 rstudioapi::viewer("README.html")
