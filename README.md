@@ -30,16 +30,16 @@ download_datacamp_slides(input = "https://s3.amazonaws.com/assets.datacamp.com/p
 ## Citations
 
 Jiaxiang Li. (2019, August 9). JiaxiangBU/add2datacamp: add2datacamp
-0.1.0 (Version v0.1.0). Zenodo. <http://doi.org/10.5281/zenodo.3364644>
+0.1.1 (Version v0.1.1). Zenodo. <http://doi.org/10.5281/zenodo.3364685>
 
 ``` bibtex
-@misc{jiaxiang_li_2019_3364644,
+@misc{jiaxiang_li_2019_3364685,
   author       = {Jiaxiang Li},
-  title        = {JiaxiangBU/add2datacamp: add2datacamp 0.1.0},
+  title        = {JiaxiangBU/add2datacamp: add2datacamp 0.1.1},
   month        = aug,
   year         = 2019,
-  doi          = {10.5281/zenodo.3364644},
-  url          = {https://doi.org/10.5281/zenodo.3364644}
+  doi          = {10.5281/zenodo.3364685},
+  url          = {https://doi.org/10.5281/zenodo.3364685}
 }
 ```
 

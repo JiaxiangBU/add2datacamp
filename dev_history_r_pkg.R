@@ -110,3 +110,4 @@ start_time <- lubridate::now()
 pkgdown::build_site()
 end_time <- lubridate::now()
 end_time - start_time
+# 如果 doi 没有好，影响 readme，从而无法 build
