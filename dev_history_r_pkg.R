@@ -22,8 +22,6 @@ use_mit_license()
 
 # coding ------------------------------------------------------------------
 
-file.edit("R/xgb_sql_score_query.R")
-file.edit("R/xgb_tree_sql.R")
 # add title
 
 # prettify ----------------------------------------------------------------
@@ -53,12 +51,17 @@ use_version()
 # add disclaimer ----------------------------------------------------------
 
 file.edit("DESCRIPTION")
-clipr::write_clip('`r add2pkg::add_disclaimer("Roland Stevenson;Jiaxiang Li")`')
+clipr::write_clip('`r add2pkg::add_disclaimer("Jiaxiang Li")`')
 file.edit("README.Rmd")
 rmarkdown::render("README.Rmd")
 rstudioapi::viewer("README.html")
 file.remove("README.html")
 usethis::use_code_of_conduct()
+
+
+# add examples ------------------------------------------------------------
+
+file.edit("R/download_datacamp_slides.R")
 
 
 # publish -----------------------------------------------------------------

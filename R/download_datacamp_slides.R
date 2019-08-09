@@ -2,6 +2,8 @@
 #' @param input character
 #' @param dir character
 #' @export
+#' @example
+#' download_datacamp_slides(input = "https://s3.amazonaws.com/assets.datacamp.com/production/course_15268/slides/chapter{1:4}.pdf",dir = "refs")
 download_datacamp_slides <-
     function(input = "https://s3.amazonaws.com/assets.datacamp.com/production/course_15268/slides/chapter{1:4}.pdf",
              dir = "refs") {
