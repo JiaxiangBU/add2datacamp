@@ -1,5 +1,3 @@
-# add2datacamp (development version)
-
 * Added a function `download_datacamp_slides` to easily download DataCamp slides.
 
 # add2datacamp 0.0.0.9000
