@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![DOI](https://zenodo.org/badge/194385184.svg)](https://zenodo.org/badge/latestdoi/194385184)
 <!-- badges: end -->
 
 The goal of add2datacamp is to provide helpful functions to learn
