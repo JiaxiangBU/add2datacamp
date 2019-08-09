@@ -2,4 +2,8 @@
 
 export("%>%")
 export(download_datacamp_slides)
+importFrom(dplyr,mutate)
+importFrom(glue,glue)
 importFrom(magrittr,"%>%")
+importFrom(purrr,map2)
+importFrom(stringr,str_replace)
