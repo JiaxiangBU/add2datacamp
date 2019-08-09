@@ -1,0 +1,55 @@
+---
+title: "Download course slides"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{download_course_slides}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(add2datacamp)
+```
+
+
+
+
+
+![Open a DataCamp course https://www.datacamp.com/courses/free-introduction-to-r](https://user-images.githubusercontent.com/15884785/62799291-ff631600-bb12-11e9-90a5-e259b954d09d.png){ width=100% }
+
+
+
+![Click an exercise.](https://user-images.githubusercontent.com/15884785/62799303-08ec7e00-bb13-11e9-8015-6063e070aba9.png){ width=100% }
+
+
+
+![view the page source.](https://user-images.githubusercontent.com/15884785/62799321-17d33080-bb13-11e9-9f41-96ff6e3e335f.png){ width=100% }
+
+
+
+![find the `chapter1` string.](https://user-images.githubusercontent.com/15884785/62799355-2cafc400-bb13-11e9-906f-32318cee9a46.png){ width=100% }
+
+
+
+![Get the download URL.](https://user-images.githubusercontent.com/15884785/62799394-40f3c100-bb13-11e9-87c0-bc29dcf55c41.png){ width=100% }
+
+
+
+```r
+add2datacamp::download_datacamp_slides("https://s3.amazonaws.com/assets.datacamp.com/production/course_15510/slides/chapter1.pdf")
+```
+
+```r
+> fs::dir_info("analysis/winning_a_kaggle_competition_in_python/refs/")$path
+analysis/winning_a_kaggle_competition_in_python/refs/chapter1.pdf
+analysis/winning_a_kaggle_competition_in_python/refs/chapter2.pdf
+analysis/winning_a_kaggle_competition_in_python/refs/chapter3.pdf
+analysis/winning_a_kaggle_competition_in_python/refs/chapter4.pdf
+```

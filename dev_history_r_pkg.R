@@ -100,7 +100,8 @@ safely(file.remove)("README.html")
 
 # add vignette ------------------------------------------------------------
 
-use_vignette("xgb_to_sql")
+use_vignette("download_course_slides")
+webshot::webshot("https://www.datacamp.com/courses/deep-learning-with-pytorch")
 
 
 # pkgdown -----------------------------------------------------------------
