@@ -1,4 +1,4 @@
-#' Easily download DataCamp slides
+#' Easily download DataCamp slides.
 #' @param input character
 #' @param dir character
 #' @export
