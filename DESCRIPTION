@@ -1,5 +1,5 @@
 Package: add2datacamp
-Title: Helpful functions to learn courses from DataCamp.
+Title: Add to Data Camp
 Version: 0.1.1
 Authors@R: 
     person(given = "Jiaxiang",
@@ -13,7 +13,11 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
 Imports: 
-    magrittr
+    magrittr,
+    dplyr,
+    glue,
+    purrr,
+    stringr
 Suggests: 
     knitr,
     rmarkdown

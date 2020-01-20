@@ -22,25 +22,23 @@ library(add2datacamp)
 
 
 
-![Open a DataCamp course https://www.datacamp.com/courses/free-introduction-to-r](https://user-images.githubusercontent.com/15884785/62799291-ff631600-bb12-11e9-90a5-e259b954d09d.png){ width=100% }
+![Open a DataCamp course https://www.datacamp.com/courses/free-introduction-to-r](../inst/figure/62799291-ff631600-bb12-11e9-90a5-e259b954d09d.png){ width=100% }
 
 
 
-![Click an exercise.](https://user-images.githubusercontent.com/15884785/62799303-08ec7e00-bb13-11e9-8015-6063e070aba9.png){ width=100% }
+![Click an exercise.](../inst/figure/62799303-08ec7e00-bb13-11e9-8015-6063e070aba9.png){ width=100% }
 
 
 
-![view the page source.](https://user-images.githubusercontent.com/15884785/62799321-17d33080-bb13-11e9-9f41-96ff6e3e335f.png){ width=100% }
+![view the page source.](../inst/figure/62799321-17d33080-bb13-11e9-9f41-96ff6e3e335f.png){ width=100% }
 
 
 
-![find the `chapter1` string.](https://user-images.githubusercontent.com/15884785/62799355-2cafc400-bb13-11e9-906f-32318cee9a46.png){ width=100% }
+![find the `chapter1` string.](../inst/figure/62799355-2cafc400-bb13-11e9-906f-32318cee9a46.png){ width=100% }
 
 
 
-![Get the download URL.](https://user-images.githubusercontent.com/15884785/62799394-40f3c100-bb13-11e9-87c0-bc29dcf55c41.png){ width=100% }
-
-
+![Get the download URL.](../inst/figure/62799394-40f3c100-bb13-11e9-87c0-bc29dcf55c41.png){ width=100% }
 
 ```r
 add2datacamp::download_datacamp_slides("https://s3.amazonaws.com/assets.datacamp.com/production/course_15510/slides/chapter1.pdf")

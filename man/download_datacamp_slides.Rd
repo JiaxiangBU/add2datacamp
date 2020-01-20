@@ -16,3 +16,10 @@
 \description{
 Easily download DataCamp slides.
 }
+\examples{
+download_datacamp_slides(
+input = file.path(
+"https://s3.amazonaws.com/assets.datacamp.com/production",
+"course_15268/slides/chapter1.pdf"),
+dir = "refs")
+}
